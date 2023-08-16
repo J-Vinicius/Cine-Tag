@@ -4,7 +4,7 @@ import iconeDesfavoritar from "./desfavoritar.svg"
 export default function Card({ capa, titulo, duracao, generos}) {
     return ( 
         <>
-            <div className="max-w-[240px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-[280px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <div className="relative">
                     <div>
                         <img className="rounded-t-lg" src={capa} alt={titulo} />
