@@ -2,14 +2,23 @@ import Banner from "components/Banner";
 import Container from "components/Container";
 import Titulo from "components/Titulo";
 import { useParams } from "react-router-dom";
-import videos from 'json/bd.json'
 import NaoEncontrada from "pages/NaoEncontrada";
+import { useEffect, useState } from "react";
 
 export default function Player() {
+
+    const [video, setVideo] = useState();
+
     const parametros = useParams();
-    const video = videos.find((video) => {
-        return video.id === Number(parametros.id);
-    })
+   
+    useEffect(() => {
+        fetch(`https://my-json-server.typicode.com/J-Vinicius/cinetag-api/videos?id=${parametros.id}`)
+            .then(resposta => resposta.json())
+            .then(dados => {
+                setVideo(...dados)
+            })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[])
 
     if(!video) {
         return <NaoEncontrada />
