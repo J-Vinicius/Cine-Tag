@@ -1,6 +1,7 @@
 export default  function Container({children}) {
+    const estilo = "flex justify-center flex-wrap gap-4"
     return ( 
-        <section className="max-w-full md:max-w-[50%] mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 pt-2">
+        <section className={estilo}>
             {children}
         </section>
      );
