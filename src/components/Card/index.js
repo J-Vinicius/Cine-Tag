@@ -9,7 +9,7 @@ export default function Card({ id, capa, titulo, duracao, generos}) {
     const ehFavorito = favorito.some((fav) => fav.id === id);
     const icone = !ehFavorito ? iconeFavoritar : iconeDesfavoritar;
     return ( 
-        <div className="max-w-[180px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="max-w-[175px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <div className="relative">
                 <Link to={`/${id}/${tituloFormatado}`}>
                     <div>

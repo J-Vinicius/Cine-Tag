@@ -6,7 +6,7 @@ import Container from 'components/Container'
 
 export const Inicio = () => {
   return (
-    <>
+    <div className="flex-inline w-full">
       <Banner imagem="home"/>
       <Titulo>Um lugar para guardar suas séries e filmes!</Titulo>
       <Container>
@@ -14,6 +14,6 @@ export const Inicio = () => {
             return <Card {...video} key={video.id} />
           })}
       </Container>
-    </>
+    </div>
   )
 }

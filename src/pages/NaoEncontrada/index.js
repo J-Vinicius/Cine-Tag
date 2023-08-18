@@ -1,5 +1,3 @@
-import Titulo from "components/Titulo";
-
 export default function NaoEncontrada() {
     return ( 
         <section className="w-full h-[391px] grid place-items-center">
@@ -15,5 +13,5 @@ export default function NaoEncontrada() {
                 </div>
             </div>
         </section>
-     );
+    );
 }
