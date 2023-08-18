@@ -9,7 +9,7 @@ Um projeto feito em react a partir do curso da Alura.
 | 🟦 Alura | ![Curso de React: praticando React com Js](https://cursos.alura.com.br/course/react-praticando-react-js) |
 | 🔗 Link do Projeto | https://url-deploy.com.br |
 
-![CineTag](linkDaImagem#vitrinedev)
+![CineTag](https://github.com/J-Vinicius/cinetag/assets/80431647/77159825-73ad-4e6d-b433-fda46130e60f#vitrinedev)
 
 ## Adaptações
 
