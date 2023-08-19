@@ -6,6 +6,7 @@ Um projeto feito em react a partir do curso da Alura.
 
 | :placard: Vitrine.Dev | Cine Tag |
 | --- | --- |
+| :label: Tecnologias | React, Javascript, Flowbite, Tailwind-CSS |
 | 🟦 Alura | ![Curso de React: praticando React com Js](https://cursos.alura.com.br/course/react-praticando-react-js) |
 | 🔗 Link do Projeto | https://url-deploy.com.br |
 
